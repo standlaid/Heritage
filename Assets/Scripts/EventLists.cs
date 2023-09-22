@@ -12,7 +12,8 @@ public class EventData : ScriptableObject
     public string attribute;
     public string description;
     public string[] choices = new string[3];
-    public EventOutcome[] outcomes = new EventOutcome[6];
+    public EventOutcome[] outcomes = new EventOutcome[6];    
+                 
 }
 
 [System.Serializable]
@@ -26,14 +27,11 @@ public class EventOutcome
 [System.Serializable]
 public class PlayerStatusChange
 {
-    public string characterName;
-    public int ageChange;
-    public SocialStatus socialStatus;
-    public bool maritalStatus;
-    public int numberOfChildren;
-    public HealthCondition healthCondition;
-    public int wealthAmount;
-    public Reputation reputation;
-
+    public int maritalScore;
+    public int childrenScore;
+    public int wealthScore;
+    public int socialScore;
+    public int healthScore;
+    public int reputationScore;
 
 }

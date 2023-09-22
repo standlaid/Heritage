@@ -12,78 +12,95 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8599c5f5c861e5c48bb96c1266ea21f3, type: 3}
   m_Name: New Event Data 1
   m_EditorClassIdentifier: 
-  eventNumber: 0
-  eventName: 
-  attribute: 
-  description: 
+  eventNumber: 1
+  eventName: "\uAC00\uBB44"
+  attribute: "\uD658\uACBD"
+  description: "\uB108\uBB34 \uC624\uB7AB\uB3D9\uC548 \uBE44\uAC00 \uC624\uC9C0 \uC54A\uC790,
+    \uB4E4\uD310\uC740 \uBB3C\uB860 \uC232 \uC18D\uC758 \uC791\uC740 \uC0D8\uAE4C\uC9C0
+    \uB9D0\uB77C\uAC00\uAE30 \uC2DC\uC791\uD588\uC2B5\uB2C8\uB2E4! \uB18D\uBD80\uB4E4\uC740
+    \uC6B8\uACE0 \uC788\uACE0, \uC0AC\uB78C\uB4E4\uC740 \uC655\uC744 \uD5A5\uD574
+    \uD654\uB97C \uB0B4\uACE0 \uC788\uC2B5\uB2C8\uB2E4. \uC774\uC81C\uB294 \uBA39\uC744
+    \uBB3C\uAE4C\uC9C0 \uAC71\uC815\uD574\uC57C\uD560 \uD310\uC785\uB2C8\uB2E4..."
   choices:
-  - 
-  - 
-  - 
+  - "1.\uAE30\uC6B0\uC81C\uB97C \uC9C0\uB0B8\uB2E4."
+  - "2.\uC0C8\uB85C\uC6B4 \uC6B0\uBB3C\uC744 \uCC3E\uC544 \uD30C\uBCF8\uB2E4."
+  - "3.\uAC00\uC871\uB4E4\uC744 \uB2EC\uB798\uBA70 \uD798\uB4E0 \uC2DC\uAE30\uB97C
+    \uACAC\uB38C\uBCF8\uB2E4."
   outcomes:
-  - outcomeText: 
-    probability: 0
+  - outcomeText: "\uAE30\uC6B0\uC81C\uC5D0 \uB9CE\uC740 \uACF5\uC744 \uB4E4\uC600\uC9C0\uB9CC
+      \uD6A8\uACFC\uAC00 \uC5C6\uC5C8\uC2B5\uB2C8\uB2E4... (\uC7AC\uC0B0\uC744 50\uACE8\uB4DC
+      \uC783\uC5C8\uC2B5\uB2C8\uB2E4)"
+    probability: 50
     statusChange:
       characterName: 
       ageChange: 0
-      socialStatus: 0
-      maritalStatus: 0
+      socialStatus: 1
+      maritalScore: 1
       numberOfChildren: 0
-      healthCondition: 0
-      wealthAmount: 0
-      reputation: 0
-  - outcomeText: 
-    probability: 0
+      healthCondition: 4
+      wealthAmount: -50
+      reputation: 2
+  - outcomeText: "\uAE30\uC6B0\uC81C\uB97C \uC9C0\uB0B4\uC790 \uACE7 \uBE44\uAC00
+      \uC624\uAE30 \uC2DC\uC791\uD569\uB2C8\uB2E4! (\uD3C9\uD310 \uC0C1\uC2B9!)"
+    probability: 50
     statusChange:
       characterName: 
       ageChange: 0
-      socialStatus: 0
-      maritalStatus: 0
+      socialStatus: 1
+      maritalScore: 1
       numberOfChildren: 0
-      healthCondition: 0
+      healthCondition: 4
       wealthAmount: 0
-      reputation: 0
-  - outcomeText: 
-    probability: 0
+      reputation: 3
+  - outcomeText: "\uC0AC\uB78C\uB4E4\uC744 \uBD88\uB7EC \uD798\uB4E4\uAC8C \uB545\uC744
+      \uD320\uC9C0\uB9CC \uC6B0\uBB3C\uC740 \uCC3E\uC9C0 \uBABB\uD588\uC2B5\uB2C8\uB2E4...
+      \uC0AC\uB78C\uB4E4\uC774 \uB2F9\uC2E0\uC744 \uC6D0\uB9DD\uD569\uB2C8\uB2E4.
+      (\uD3C9\uD310 \uD558\uB77D)"
+    probability: 50
     statusChange:
       characterName: 
       ageChange: 0
-      socialStatus: 0
-      maritalStatus: 0
+      socialStatus: 1
+      maritalScore: 2
       numberOfChildren: 0
-      healthCondition: 0
+      healthCondition: 4
       wealthAmount: 0
-      reputation: 0
-  - outcomeText: 
-    probability: 0
+      reputation: 1
+  - outcomeText: "\uC6B0\uBB3C\uC744 \uCC3E\uC544\uB0C8\uC2B5\uB2C8\uB2E4! \uC0AC\uB78C\uB4E4\uC774
+      \uB2F9\uC2E0\uC744 \uC874\uACBD\uD569\uB2C8\uB2E4. (\uD3C9\uD310 \uC0C1\uC2B9)"
+    probability: 50
     statusChange:
       characterName: 
       ageChange: 0
-      socialStatus: 0
-      maritalStatus: 0
+      socialStatus: 1
+      maritalScore: 2
       numberOfChildren: 0
-      healthCondition: 0
+      healthCondition: 4
       wealthAmount: 0
-      reputation: 0
-  - outcomeText: 
-    probability: 0
+      reputation: 3
+  - outcomeText: "\uD0C8\uC218\uC5D0 \uC2DC\uB2EC\uB9AC\uB2E4 \uBCD1\uC5D0 \uAC78\uB9AC\uACE0
+      \uB9D0\uC558\uC2B5\uB2C8\uB2E4. (\uAC74\uAC15 \uC545\uD654)"
+    probability: 50
     statusChange:
       characterName: 
       ageChange: 0
-      socialStatus: 0
-      maritalStatus: 0
+      socialStatus: 1
+      maritalScore: 0
       numberOfChildren: 0
-      healthCondition: 0
+      healthCondition: 2
       wealthAmount: 0
-      reputation: 0
-  - outcomeText: 
-    probability: 0
+      reputation: 2
+  - outcomeText: "\uAE30\uB2E4\uB9BC \uB05D\uC5D0 \uBE44\uAC00 \uB0B4\uB9AC\uAE30
+      \uC2DC\uC791\uD569\uB2C8\uB2E4. \uC0AC\uB78C\uB4E4\uC774 \uAE30\uBED0\uC11C
+      \uB108\uB3C4\uB098\uB3C4 \uBE57 \uC18D\uC73C\uB85C \uB6F0\uC5B4\uB4ED\uB2C8\uB2E4.
+      (\uBCC0\uD654 \uC5C6\uC74C)"
+    probability: 50
     statusChange:
       characterName: 
       ageChange: 0
-      socialStatus: 0
-      maritalStatus: 0
+      socialStatus: 1
+      maritalScore: 0
       numberOfChildren: 0
-      healthCondition: 0
+      healthCondition: 4
       wealthAmount: 0
-      reputation: 0
+      reputation: 2

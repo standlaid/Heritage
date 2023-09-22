@@ -12,78 +12,78 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8599c5f5c861e5c48bb96c1266ea21f3, type: 3}
   m_Name: New Event Data 3
   m_EditorClassIdentifier: 
-  eventNumber: 0
-  eventName: 
-  attribute: 
-  description: 
+  eventNumber: 1
+  eventName: ??
+  attribute: "\uD658\uACBD"
+  description: ??
   choices:
-  - 
-  - 
-  - 
+  - '?'
+  - ??
+  - ???
   outcomes:
-  - outcomeText: 
-    probability: 0
+  - outcomeText: "\uAE0D\uC815 1"
+    probability: 50
     statusChange:
       characterName: 
       ageChange: 0
-      socialStatus: 0
+      socialStatus: 1
       maritalStatus: 0
       numberOfChildren: 0
-      healthCondition: 0
+      healthCondition: 4
       wealthAmount: 0
-      reputation: 0
-  - outcomeText: 
-    probability: 0
+      reputation: 2
+  - outcomeText: "\uBD80\uC815 1"
+    probability: 50
     statusChange:
       characterName: 
       ageChange: 0
-      socialStatus: 0
+      socialStatus: 1
       maritalStatus: 0
       numberOfChildren: 0
-      healthCondition: 0
+      healthCondition: 4
       wealthAmount: 0
-      reputation: 0
-  - outcomeText: 
-    probability: 0
+      reputation: 2
+  - outcomeText: "\uAE0D\uC815 2"
+    probability: 50
     statusChange:
       characterName: 
       ageChange: 0
-      socialStatus: 0
+      socialStatus: 1
       maritalStatus: 0
       numberOfChildren: 0
-      healthCondition: 0
+      healthCondition: 4
       wealthAmount: 0
-      reputation: 0
-  - outcomeText: 
-    probability: 0
+      reputation: 2
+  - outcomeText: "\uBD80\uC815 2"
+    probability: 50
     statusChange:
       characterName: 
       ageChange: 0
-      socialStatus: 0
+      socialStatus: 1
       maritalStatus: 0
       numberOfChildren: 0
-      healthCondition: 0
+      healthCondition: 4
       wealthAmount: 0
-      reputation: 0
-  - outcomeText: 
-    probability: 0
+      reputation: 2
+  - outcomeText: "\uAE0D\uC8153"
+    probability: 50
     statusChange:
       characterName: 
       ageChange: 0
-      socialStatus: 0
+      socialStatus: 1
       maritalStatus: 0
       numberOfChildren: 0
-      healthCondition: 0
+      healthCondition: 4
       wealthAmount: 0
-      reputation: 0
-  - outcomeText: 
-    probability: 0
+      reputation: 2
+  - outcomeText: "\uBD80\uC8153"
+    probability: 50
     statusChange:
       characterName: 
       ageChange: 0
-      socialStatus: 0
+      socialStatus: 1
       maritalStatus: 0
       numberOfChildren: 0
-      healthCondition: 0
+      healthCondition: 4
       wealthAmount: 0
-      reputation: 0
+      reputation: 2

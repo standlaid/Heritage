@@ -13,77 +13,71 @@ MonoBehaviour:
   m_Name: New Event Data 2
   m_EditorClassIdentifier: 
   eventNumber: 1
-  eventName: 1212
-  attribute: 1212
-  description: 12121212
+  eventName: "\uC0B0\uBD88"
+  attribute: "\uD658\uACBD"
+  description: "\uC0B0\uB4F1\uC131\uC774 \uB108\uBA38\uC5D0\uC11C \uC5F0\uAE30\uAC00
+    \uD53C\uC5B4\uC624\uB978 \uB4A4 \uBD88\uAE38\uC774 \uBCF4\uC774\uAE30 \uC2DC\uC791\uD588\uC2B5\uB2C8\uB2E4.
+    \uBD88\uAE38\uC740 \uBA70\uCE60\uC9F8 \uBE60\uB974\uAC8C \uD37C\uC838 \uB098\uAC00\uBA70
+    \uC232\uACFC \uB9C8\uC744\uC744 \uC704\uD611\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4.
+    \uC0AC\uB78C\uB4E4\uC740 \uC2E0\uC744 \uC6D0\uB9DD\uD558\uBA70 \uBB3C\uACFC \uAE30\uB3C4\uB85C
+    \uBD88\uC744 \uB044\uB824\uACE0 \uC560\uC4F0\uACE0 \uC788\uC2B5\uB2C8\uB2E4."
   choices:
-  - 1
-  - 2
-  - 3
+  - "\uBA70\uCE60\uAC04 \uAC74\uB108 \uB9C8\uC744 \uCE5C\uCC99\uC9D1\uC73C\uB85C
+    \uB300\uD53C\uD55C\uB2E4."
+  - "\uC0AC\uB78C\uB4E4\uC744 \uBAA8\uC544 \uBD88\uC744 \uB048\uB2E4.."
+  - "\uC2E0\uC5D0\uAC8C \uAE30\uB3C4\uD55C\uB2E4."
   outcomes:
-  - outcomeText: 1
-    probability: 50
+  - outcomeText: "\uAE0D\uC815 1"
+    probability: 0.7
     statusChange:
-      characterName: 
-      ageChange: 0
-      socialStatus: 0
-      maritalStatus: 0
-      numberOfChildren: 0
-      healthCondition: 0
-      wealthAmount: 0
-      reputation: 0
-  - outcomeText: 
-    probability: 0
+      maritalScore: 1
+      childrenScore: 0
+      wealthScore: 0
+      socialScore: 0
+      healthScore: 0
+      reputationScore: 0
+  - outcomeText: "\uBD80\uC815 1"
+    probability: 0.3
     statusChange:
-      characterName: 
-      ageChange: 0
-      socialStatus: 0
-      maritalStatus: 0
-      numberOfChildren: 0
-      healthCondition: 0
-      wealthAmount: 0
-      reputation: 0
-  - outcomeText: 
-    probability: 0
+      maritalScore: 1
+      childrenScore: 0
+      wealthScore: 0
+      socialScore: 0
+      healthScore: 0
+      reputationScore: 0
+  - outcomeText: "\uAE0D\uC815 2"
+    probability: 0.7
     statusChange:
-      characterName: 
-      ageChange: 0
-      socialStatus: 0
-      maritalStatus: 0
-      numberOfChildren: 0
-      healthCondition: 0
-      wealthAmount: 0
-      reputation: 0
-  - outcomeText: 
-    probability: 0
+      maritalScore: 2
+      childrenScore: 0
+      wealthScore: 0
+      socialScore: 0
+      healthScore: 0
+      reputationScore: 0
+  - outcomeText: "\uBD80\uC815 2"
+    probability: 0.3
     statusChange:
-      characterName: 
-      ageChange: 0
-      socialStatus: 0
-      maritalStatus: 0
-      numberOfChildren: 0
-      healthCondition: 0
-      wealthAmount: 0
-      reputation: 0
-  - outcomeText: 
-    probability: 0
+      maritalScore: 2
+      childrenScore: 0
+      wealthScore: 0
+      socialScore: 0
+      healthScore: 0
+      reputationScore: 0
+  - outcomeText: "\uAE0D\uC8153"
+    probability: 0.7
     statusChange:
-      characterName: 
-      ageChange: 0
-      socialStatus: 0
-      maritalStatus: 0
-      numberOfChildren: 0
-      healthCondition: 0
-      wealthAmount: 0
-      reputation: 0
-  - outcomeText: 
-    probability: 0
+      maritalScore: 2
+      childrenScore: 0
+      wealthScore: 0
+      socialScore: 0
+      healthScore: 0
+      reputationScore: 0
+  - outcomeText: "\uBD80\uC8153"
+    probability: 0.3
     statusChange:
-      characterName: 
-      ageChange: 0
-      socialStatus: 0
-      maritalStatus: 0
-      numberOfChildren: 0
-      healthCondition: 0
-      wealthAmount: 0
-      reputation: 0
+      maritalScore: 2
+      childrenScore: 0
+      wealthScore: 0
+      socialScore: 0
+      healthScore: 0
+      reputationScore: 0
