@@ -47,6 +47,7 @@ public class PlayerManager : MonoBehaviour
         set
         {
             childrenScore = Mathf.Max(0, value);
+            numberOfChildren = childrenScore;
         }
     }
     public int WealthScore
@@ -55,6 +56,7 @@ public class PlayerManager : MonoBehaviour
         set
         {
             wealthScore = value;
+            wealthAmount = wealthScore;
         }
     }
     public int SocialScore
