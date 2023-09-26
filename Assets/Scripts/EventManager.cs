@@ -43,6 +43,9 @@ public class EventManager : MonoBehaviour
 
         for (int i = 0; i < choiceButtons.Length; i++)
         {
+            // 기존 리스너 제거
+            choiceButtons[i].onClick.RemoveAllListeners();
+
             // 선택지 텍스트를 버튼에 설정
             choiceButtons[i].GetComponentInChildren<TMP_Text>().text = selectedEvent.choices[i];
 
@@ -61,25 +64,36 @@ public class EventManager : MonoBehaviour
     {
         List<int> outcomesIndices = choiceOutcomeIndices[choiceIndex];
 
+        int randomValue = Random.Range(0, 2);
+        //Debug.Log(randomValue);
         foreach (int index in outcomesIndices)
         {
             EventOutcome outcome = selectedEvent.outcomes[index];
 
             // 확률을 이용해서 결과 결정
-            float randomValue = Random.value;
-            if (randomValue <= outcome.probability)
+            if (randomValue == outcome.probability)
             {
+                //Debug.Log(outcome.probability + "," + index);
                 feedbackText.text = outcome.outcomeText;
 
                 // 플레이어 상태에 결과 적용
-                playerManager.MaritalScore += outcome.statusChange.maritalScore;
+                playerManager.MaritalScore = outcome.statusChange.maritalScore;
                 playerManager.HealthScore += outcome.statusChange.healthScore;
                 playerManager.ReputationScore += outcome.statusChange.reputationScore;
                 playerManager.SocialScore += outcome.statusChange.socialScore;
                 playerManager.WealthScore += outcome.statusChange.wealthScore;
                 playerManager.ChildrenScore += outcome.statusChange.childrenScore;
                 //... 기타 변경 사항 적용
+                Debug.Log("결혼: " + outcome.statusChange.maritalScore +
+                      "자녀: " + outcome.statusChange.childrenScore +
+                      "재산: " + outcome.statusChange.wealthScore +
+                      "신분: " + outcome.statusChange.socialScore +
+                      "건강: " + outcome.statusChange.healthScore +
+                      "평판: " + outcome.statusChange.reputationScore);
             }
+            
+
+
         }
 
         feedbackPanel.SetActive(true);

@@ -120,19 +120,19 @@ public class PlayerManager : MonoBehaviour
             {
                 reputation = Reputation.악명높음;
             }
-            else if (socialScore <= 20)
+            else if (reputationScore <= 20)
             {
                 reputation = Reputation.신용불량;
             }
-            else if (socialScore <= 40)
+            else if (reputationScore <= 40)
             {
                 reputation = Reputation.중립적인;
             }
-            else if (socialScore <= 60)
+            else if (reputationScore <= 60)
             {
                 reputation = Reputation.존경받음;
             }
-            else if (socialScore <= 80)
+            else if (reputationScore <= 80)
             {
                 reputation = Reputation.명성높음;
             }

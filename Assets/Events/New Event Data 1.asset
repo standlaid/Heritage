@@ -32,75 +32,63 @@ MonoBehaviour:
       \uC783\uC5C8\uC2B5\uB2C8\uB2E4)"
     probability: 50
     statusChange:
-      characterName: 
-      ageChange: 0
-      socialStatus: 1
       maritalScore: 1
-      numberOfChildren: 0
-      healthCondition: 4
-      wealthAmount: -50
-      reputation: 2
+      childrenScore: 0
+      wealthScore: 50
+      socialScore: 0
+      healthScore: 0
+      reputationScore: 0
   - outcomeText: "\uAE30\uC6B0\uC81C\uB97C \uC9C0\uB0B4\uC790 \uACE7 \uBE44\uAC00
       \uC624\uAE30 \uC2DC\uC791\uD569\uB2C8\uB2E4! (\uD3C9\uD310 \uC0C1\uC2B9!)"
     probability: 50
     statusChange:
-      characterName: 
-      ageChange: 0
-      socialStatus: 1
       maritalScore: 1
-      numberOfChildren: 0
-      healthCondition: 4
-      wealthAmount: 0
-      reputation: 3
+      childrenScore: 0
+      wealthScore: 0
+      socialScore: 20
+      healthScore: 0
+      reputationScore: 0
   - outcomeText: "\uC0AC\uB78C\uB4E4\uC744 \uBD88\uB7EC \uD798\uB4E4\uAC8C \uB545\uC744
       \uD320\uC9C0\uB9CC \uC6B0\uBB3C\uC740 \uCC3E\uC9C0 \uBABB\uD588\uC2B5\uB2C8\uB2E4...
       \uC0AC\uB78C\uB4E4\uC774 \uB2F9\uC2E0\uC744 \uC6D0\uB9DD\uD569\uB2C8\uB2E4.
       (\uD3C9\uD310 \uD558\uB77D)"
     probability: 50
     statusChange:
-      characterName: 
-      ageChange: 0
-      socialStatus: 1
       maritalScore: 2
-      numberOfChildren: 0
-      healthCondition: 4
-      wealthAmount: 0
-      reputation: 1
+      childrenScore: 0
+      wealthScore: 0
+      socialScore: -20
+      healthScore: 0
+      reputationScore: 0
   - outcomeText: "\uC6B0\uBB3C\uC744 \uCC3E\uC544\uB0C8\uC2B5\uB2C8\uB2E4! \uC0AC\uB78C\uB4E4\uC774
       \uB2F9\uC2E0\uC744 \uC874\uACBD\uD569\uB2C8\uB2E4. (\uD3C9\uD310 \uC0C1\uC2B9)"
     probability: 50
     statusChange:
-      characterName: 
-      ageChange: 0
-      socialStatus: 1
       maritalScore: 2
-      numberOfChildren: 0
-      healthCondition: 4
-      wealthAmount: 0
-      reputation: 3
+      childrenScore: 0
+      wealthScore: 0
+      socialScore: 30
+      healthScore: 0
+      reputationScore: 0
   - outcomeText: "\uD0C8\uC218\uC5D0 \uC2DC\uB2EC\uB9AC\uB2E4 \uBCD1\uC5D0 \uAC78\uB9AC\uACE0
       \uB9D0\uC558\uC2B5\uB2C8\uB2E4. (\uAC74\uAC15 \uC545\uD654)"
     probability: 50
     statusChange:
-      characterName: 
-      ageChange: 0
-      socialStatus: 1
       maritalScore: 0
-      numberOfChildren: 0
-      healthCondition: 2
-      wealthAmount: 0
-      reputation: 2
+      childrenScore: 0
+      wealthScore: 0
+      socialScore: 0
+      healthScore: -50
+      reputationScore: 0
   - outcomeText: "\uAE30\uB2E4\uB9BC \uB05D\uC5D0 \uBE44\uAC00 \uB0B4\uB9AC\uAE30
       \uC2DC\uC791\uD569\uB2C8\uB2E4. \uC0AC\uB78C\uB4E4\uC774 \uAE30\uBED0\uC11C
       \uB108\uB3C4\uB098\uB3C4 \uBE57 \uC18D\uC73C\uB85C \uB6F0\uC5B4\uB4ED\uB2C8\uB2E4.
       (\uBCC0\uD654 \uC5C6\uC74C)"
     probability: 50
     statusChange:
-      characterName: 
-      ageChange: 0
-      socialStatus: 1
       maritalScore: 0
-      numberOfChildren: 0
-      healthCondition: 4
-      wealthAmount: 0
-      reputation: 2
+      childrenScore: 0
+      wealthScore: 0
+      socialScore: 0
+      healthScore: 0
+      reputationScore: 0

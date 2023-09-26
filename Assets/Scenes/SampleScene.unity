@@ -511,13 +511,13 @@ MonoBehaviour:
   characterName: "\uC120\uC6B0\uD6C8"
   characterAge: 20
   maritalStatus: 1
-  numberOfChildren: 0
-  wealthAmount: 100
+  numberOfChildren: 1
+  wealthAmount: 200
   socialStatus: 1
   healthCondition: 4
   reputation: 2
   childrenScore: 0
-  wealthScore: 0
+  wealthScore: 1
   socialScore: 0
   healthScore: 0
   reputationScore: 0
@@ -2432,7 +2432,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.02, y: 0.02}
   m_AnchorMax: {x: 0.98, y: 0.98}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.000015258789, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1099175044
@@ -3443,7 +3443,7 @@ MonoBehaviour:
   - {fileID: 1104307477}
   feedbackText: {fileID: 848544522}
   allEvents:
-  - {fileID: 11400000, guid: 0623589cfad0dc046a0a1076c0ff2f23, type: 2}
+  - {fileID: 11400000, guid: cc41f9de96e866c46b0987fa74a14cdf, type: 2}
 --- !u!1 &1589438867
 GameObject:
   m_ObjectHideFlags: 0

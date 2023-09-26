@@ -31,8 +31,8 @@ MonoBehaviour:
     probability: 0.7
     statusChange:
       maritalScore: 1
-      childrenScore: 0
-      wealthScore: 0
+      childrenScore: 1
+      wealthScore: 10
       socialScore: 0
       healthScore: 0
       reputationScore: 0
@@ -40,8 +40,8 @@ MonoBehaviour:
     probability: 0.3
     statusChange:
       maritalScore: 1
-      childrenScore: 0
-      wealthScore: 0
+      childrenScore: 1
+      wealthScore: 10
       socialScore: 0
       healthScore: 0
       reputationScore: 0
@@ -58,20 +58,20 @@ MonoBehaviour:
     probability: 0.3
     statusChange:
       maritalScore: 2
-      childrenScore: 0
-      wealthScore: 0
-      socialScore: 0
+      childrenScore: 1
+      wealthScore: 200
+      socialScore: -50
       healthScore: 0
       reputationScore: 0
   - outcomeText: "\uAE0D\uC8153"
     probability: 0.7
     statusChange:
       maritalScore: 2
-      childrenScore: 0
-      wealthScore: 0
-      socialScore: 0
-      healthScore: 0
-      reputationScore: 0
+      childrenScore: 1
+      wealthScore: 90
+      socialScore: 90
+      healthScore: 10
+      reputationScore: 10
   - outcomeText: "\uBD80\uC8153"
     probability: 0.3
     statusChange:
